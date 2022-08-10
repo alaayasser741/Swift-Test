@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: var(--background-color);
+    // font-family: 'Cairo', sans-serif;
+}
+input{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+// Main Title 
+.main-title {
+    background: var(--heads);
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+
+    h2 {
+        padding: 20px 0;
+        text-transform: uppercase;
+
+        span {
+            font-weight: normal;
+            font-size: 1.2rem;
+            color: var(--gray);
+        }
+    }
+}
+
+// Slider (Slider Style)
+.container {
+    .boxes {
+        .main-title {
+            text-align: left;
+            padding-left: 20px;
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+        }
+
+        .card {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: grab;
+            width: 230px !important;
+            height: 340px !important;
+
+            img {
+                width: 150px;
+                height: 200px;
+            }
+
+            .card-body {
+                a {
+                    text-decoration: none;
+                    color: var(--black);
+                    font-weight: normal;
+                    transition: var(--transtion);
+
+                    &:hover {
+                        color: var(--hover-color);
+                    }
+                }
+
+                .info-sell {
+                    a {
+
+                        font-size: 2rem;
+                        color: var(--main-color);
+                        transition: var(--transtion);
+
+                        &:hover {
+                            color: var(--hover-color);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+

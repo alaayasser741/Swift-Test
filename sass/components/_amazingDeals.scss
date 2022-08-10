@@ -1,0 +1,114 @@
+
+// DealBox
+.dealbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+    gap: 20px;
+
+    .background:nth-child(1),
+    .background:nth-child(4) {
+        background-color: var(--main-color);
+    }
+
+    .background {
+        height: 260px;
+        overflow: hidden;
+
+        .text {
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.7rem;
+            }
+        }
+
+        .freeBanar {
+            height: 260px;
+        }
+
+        img {
+            width: 200px;
+            right: 10%;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+
+        img[alt="Shoes"] {
+            width: 430px;
+            right: -80px;
+        }
+
+        img[alt="hairOil"] {
+            width: 150px;
+        }
+    }
+}
+
+@media (max-width:1199px) {
+    .dealbox {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        gap: 5px;
+
+        // gap: 10px;
+        .background:nth-child(4) {
+            background-color: var(--gray);
+        }
+
+        .background:nth-child(odd) {
+            background-color: var(--main-color);
+        }
+
+        img[alt="Shoes"] {
+            right: -45px !important;
+        }
+
+        img[alt="hairOil"] {
+            width: 150px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .dealbox {
+
+        .background {
+            height: 200px;
+
+            .freeBanar {
+                height: 200px;
+            }
+
+            .text {
+                h2 {
+                    font-size: 1.4rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                }
+            }
+
+            img {
+                width: 150px;
+                right: 10px;
+            }
+
+            img[alt="Shoes"] {
+                width: 300px;
+                right: -60px !important;
+                top: 120px;
+            }
+
+            img[alt="hairOil"] {
+                width: 100px !important;
+            }
+        }
+    }
+}
+
+.freeBanar img {
+    width: 20px !important;
+}

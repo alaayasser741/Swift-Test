@@ -1,0 +1,37 @@
+.more {
+    .background {
+        background-color: var(--gray) !important;
+        
+        img {
+            width: 220px ;
+            right: 0;
+        }
+    }
+
+    .background:first-child {
+        img {
+            width: 300px;
+            top: 50%;
+            transform: translate(0%, -50%);
+        }
+    }
+    @media (min-width:1199px) {
+        .background:first-child{
+            img{
+                right: -40px !important;
+            }
+        }
+    }
+    @media (max-width:786px) {
+        .background{
+            img{
+                width: 150px !important;
+            }
+        }
+        .background:first-child{
+            img{
+                width: 180px !important;
+            }
+        }
+    }
+}

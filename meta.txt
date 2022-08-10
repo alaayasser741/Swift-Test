@@ -1,0 +1,107 @@
+<meta property="og:title" content="Home Page"/>
+
+<meta property="og:url" content="https://cisteam.org"/>
+<meta property="og:site_name" content="Home Page | CIS Team"/>
+
+<meta property="og:image" content="https://cisteam.org/cis_logo.jpg"/>
+<meta property="og:type" content="website"/>
+<meta
+    property="og:description"
+
+    content="CIS Team is a non-profit scientific organization, Founded in 2015, which is based on volunteer work to provide knowledge to all computer science students in both technical and educational tracks. | CIS Team"
+/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content=""/>
+<meta name="twitter:creator" content=""/>
+<meta name="twitter:title" content="Home Page | CIS Team"/>
+
+<meta
+    name="twitter:description"
+    content="CIS Team is a non-profit scientific organization, Founded in 2015, which is based on volunteer work to provide knowledge to all computer science students in both technical and educational tracks."
+/>
+<meta name="twitter:image" content="https://cisteam.org/cis_logo.jpg"/>
+
+
+
+    <!-- TWITTER META -->
+
+
+    <!-- FAVICON FILES -->
+    <link
+        rel="apple-touch-icon"
+        sizes="57x57"
+        href="https://cisteam.org/assets/ico/apple-icon-57x57.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="60x60"
+        href="https://cisteam.org/assets/ico/apple-icon-60x60.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="https://cisteam.org/assets/ico/apple-icon-72x72.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="76x76"
+        href="https://cisteam.org/assets/ico/apple-icon-76x76.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="https://cisteam.org/assets/ico/apple-icon-114x114.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href="https://cisteam.org/assets/ico/apple-icon-120x120.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href="https://cisteam.org/assets/ico/apple-icon-144x144.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href="https://cisteam.org/assets/ico/apple-icon-152x152.webp"
+    />
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="https://cisteam.org/assets/ico/apple-icon-180x180.webp"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="https://cisteam.org/assets/ico/android-icon-192x192.webp"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="https://cisteam.org/assets/ico/favicon-32x32.webp"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+        href="https://cisteam.org/assets/ico/favicon-96x96.webp.="
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="https://cisteam.org/assets/ico/favicon-16x16.webp"
+    />
+    <link rel="manifest" href="https://cisteam.org/assets/ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#1ae5be" />
+    <meta
+        name="msapplication-TileImage"
+        content="https://cisteam.org/assets/ico/ms-icon-144x144.webp"
+    />
+    <meta name="theme-color" content="#1ae5be" />

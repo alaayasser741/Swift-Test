@@ -1,0 +1,116 @@
+// Free Shopping {
+    .container {
+        .background {
+            position: relative;
+            height: 400px;
+            background-color: var(--gray);
+    
+            .freeBanar {
+                width: 100%;
+                height: 400px;
+                background-color: var(--white);
+                clip-path: polygon(90% 0, 100% 0, 100% 100%, 55% 100%);
+            }
+    
+            img {
+                position: absolute;
+                top: 0;
+                right: 10px;
+                width: 360px;
+            }
+    
+            .text {
+                position: absolute;
+                left: 30%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: var(--white);
+                text-align: center;
+    
+                h2 {
+                    font-size: 3.5rem;
+                }
+    
+                p {
+                    font-size: 2.5rem;
+                }
+    
+    
+                @media (max-width:991px) {
+                    h2 {
+                        font-size: 2rem;
+                    }
+    
+                    p {
+                        font-size: 1.5rem
+                    }
+                }
+    
+                @media (max-width:786px) {
+                    .text {
+                        text-align: left !important;
+                    }
+    
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+    
+                    p {
+                        font-size: 1rem
+                    }
+                }
+            }
+        }
+    }
+    
+    @media (max-width:991px) {
+        .container {
+            .background {
+                height: 260px;
+    
+                .freeBanar {
+                    height: 260px;
+                }
+    
+                img {
+                    right: 0;
+                    width: 230px;
+                }
+            }
+        }
+    }
+    
+    @media (max-width:1199px) {
+        .freeShopping {
+            .background {
+                height: 300px;
+    
+                .freeBanar {
+                    height: 300px;
+                }
+    
+                img {
+                    right: 40px;
+                    width: 270px;
+                }
+            }
+        }
+    }
+    
+    @media (max-width:786px) {
+        .freeShopping {
+            .container {
+                .background {
+                    height: 200px;
+    
+                    .freeBanar {
+                        height: 200px;
+                    }
+    
+                    img {
+                        width: 160px;
+                    }
+                }
+            }
+        }
+    }

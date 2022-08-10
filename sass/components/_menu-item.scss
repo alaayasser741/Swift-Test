@@ -1,0 +1,63 @@
+.menu{
+    position: relative;
+}
+.fashion,
+.beauty,
+.phones
+,.electro
+,.computing{
+.items{
+    display: none;
+    column-gap: 1.7rem;
+    grid-template-columns: repeat(4,1fr);
+    background-color: var(--white);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid #eee;
+    width: 51%;
+    padding: .8rem 0rem .5rem 2.7rem;
+    position: absolute;
+    top: 8.5%;
+    left:23.8%;
+    z-index: 10;
+    height: 290px;
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    .item
+{
+        display: flex;
+        flex-direction: column;
+        h5{
+            font-size: .91rem;
+            color: rgba(0, 0, 0, .8);
+            border-bottom: 1px solid #eee;
+            padding-bottom: .35rem;
+            margin-right: .7rem;
+
+        }
+        span{
+            font-size: .766rem;
+            color: rgba(0, 0, 0, .7);
+            &:hover{
+                color: var(--main-color);
+                cursor: pointer;
+                font-size: .8rem;
+            }
+            transition:.1s;
+            -webkit-transition:.1s;
+            -moz-transition:.1s;
+            -ms-transition:.1s;
+            -o-transition:.1s;
+}
+    }
+}
+}
+.computing {
+    .items{
+        column-gap: 3rem;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+}

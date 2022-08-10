@@ -1,0 +1,263 @@
+// summur deals
+.summur-deals {
+    .title {
+        position: absolute;
+        font-size: 2rem;
+        color: var(--white);
+        font-weight: 600;
+        line-height: 1.1;
+        left: 30px;
+        top: 30px;
+    }
+
+    .background {
+        background-color: var(--main-color);
+
+        .freeBanar {
+            img {
+                display: none;
+            }
+        }
+
+        .text {
+            margin-top: 30px;
+
+            h2 {
+                font-size: 3rem;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 3rem;
+
+                span {
+                    font-size: 4rem;
+                    font-weight: 700;
+
+                }
+            }
+        }
+
+        img {
+            right: 50px;
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width:1199px) {
+    .summur-deals {
+        .background {
+            height: 300px;
+
+            .freeBanar {
+                height: 300px;
+            }
+
+            img {
+                right: 30px;
+                width: 400px;
+            }
+
+            h2 {
+                font-size: 2.4rem !important;
+            }
+
+            p {
+                font-size: 2rem !important;
+
+                span {
+                    font-size: 3rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .summur-deals {
+        overflow: hidden;
+
+        .title {
+            font-size: 1.5rem;
+        }
+
+        .background {
+            img {
+                display: none;
+            }
+
+            .freeBanar {
+                img {
+                    display: unset;
+                    top: -30px;
+                    right: -150px;
+                    width: 100% !important;
+                    width: 500px !important;
+                }
+            }
+
+            h2 {
+                font-size: 2rem !important;
+            }
+
+            p {
+                font-size: 2rem !important;
+
+                span {
+                    font-size: 2rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:786px) {
+    .summur-deals {
+        .background {
+            .text {
+                margin-left: 15px;
+            }
+
+            img {
+                top: 50px;
+                right: 0;
+                width: 200px;
+            }
+
+            h2 {
+                font-size: 1.4rem !important;
+            }
+
+            p {
+                font-size: 1rem !important;
+
+                span {
+                    font-size: 2rem !important;
+                }
+            }
+        }
+    }
+}
+
+// Third 
+.sd-three {
+    .background {
+        img {
+            top: 40px;
+            right: 50px;
+            width: 550px;
+        }
+    }
+
+    @media (max-width:1199px) {
+
+        .background {
+            img {
+                top: 40px;
+                right: 0;
+                width: 430px;
+            }
+        }
+
+    }
+
+    @media (max-width:991px) {
+
+        .background {
+            img {
+                display: unset;
+                right: -10px;
+                width: 400px;
+            }
+
+            .freeBanar {
+                img {
+                    display: none;
+                }
+            }
+        }
+
+
+        @media (max-width:786px) {
+
+            .background {
+                img {
+                    display: none;
+                }
+
+                .freeBanar {
+                    img {
+                        display: unset;
+                        top: 0;
+                        right: -160px;
+                        width: 400px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// second 
+.sd-two {
+    .background {
+        background-color: var(--gray);
+
+        img {
+            top: 50px;
+            right: 0;
+            width: 550px;
+        }
+    }
+
+    @media (max-width:1199px) {
+
+        .background {
+            img {
+                top: 20px;
+                right: 0;
+                width: 450px;
+            }
+        }
+
+    }
+
+    @media (max-width:991px) {
+
+        .background {
+            img {
+                display: unset;
+                right: -140px;
+                width: 450px;
+            }
+
+            .freeBanar {
+                img {
+                    display: none;
+                }
+            }
+        }
+
+
+        @media (max-width:786px) {
+
+            .background {
+                img {
+                    display: none;
+                }
+
+                .freeBanar {
+                    img {
+                        display: unset;
+                        top: 10px;
+                        right: -270px;
+                        width: 450px !important;
+                    }
+                }
+            }
+
+        }
+    }
+}
