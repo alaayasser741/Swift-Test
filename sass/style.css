@@ -1483,14 +1483,15 @@ a {
   -o-border-radius: 5px;
   padding-bottom: 0.5rem;
 }
+.dresses .filtering .filter .title-brand h5 {
+  font-size: 1rem;
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 0.5rem 0.8rem;
+}
 .dresses .filtering .filter .category {
   margin-top: 1rem;
   border-bottom: 1px solid #eee;
-}
-.dresses .filtering .filter .category h5 {
-  font-size: 1rem;
-  padding-left: 0.8rem;
-  padding-top: 0.5rem;
 }
 .dresses .filtering .filter .category .dress {
   padding-top: 0.4rem;
@@ -1529,10 +1530,6 @@ a {
 .dresses .filtering .filter .brand {
   margin-top: 1.5rem;
   border-bottom: 1px solid #eee;
-}
-.dresses .filtering .filter .brand h5 {
-  font-size: 1rem;
-  padding-left: 0.8rem;
 }
 .dresses .filtering .filter .brand input {
   display: none;
@@ -1584,6 +1581,13 @@ a {
   .filtering {
     display: block !important;
   }
+  .filtering .filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .filtering .filter .title-brand {
+    margin-top: 0 !important;
+  }
 }
 @media (max-width: 497px) {
   .all-dresses {
@@ -1592,5 +1596,8 @@ a {
   }
   .all-dresses .card {
     width: 250px;
+  }
+  .filter {
+    grid-template-columns: 1fr !important;
   }
 }/*# sourceMappingURL=style.css.map */
