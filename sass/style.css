@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --main-color: #E8AA42;
+  --main-color: #3BACB6;
   --hover-color: #2e848b;
   --background-color: #f5f5f5;
   --white: #fff;
   --black: #000;
-  --gray: #96999B;
-  --heads: #4D6D6E;
-  --input:rgba(224, 224, 224,.1);
-  --menu-height:285px;
-  --menu-width:200px;
-  --box-shadow: 0 1px 4px rgba(0,0,0,.1);
+  --gray: rgb(188, 181, 181);
+  --heads: #484847;
+  --input: rgba(224, 224, 224, .1);
+  --menu-height: 285px;
+  --menu-width: 200px;
+  --box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
   --transition: 0.3s;
 }
 
@@ -93,6 +93,11 @@ a {
   color: var(--hover-color);
 }
 
+@media (max-width: 768px) {
+  .containerr {
+    padding: 0 1rem;
+  }
+}
 .navbar {
   padding-top: 0;
   padding-bottom: 0;

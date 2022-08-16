@@ -39,6 +39,7 @@ a{
 }
 
 // Slider (Slider Style)
+
 .containerr {
     padding: 0 4rem;
     .boxes {
@@ -93,3 +94,8 @@ a{
     }
 }
 
+@media (max-width:768px) {
+    .containerr{
+        padding: 0 1rem;
+    }
+}
