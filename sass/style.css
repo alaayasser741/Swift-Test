@@ -1443,8 +1443,11 @@ a {
   border: 0 !important;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
-.dresses .filtering .all-dresses .card img {
-  height: 260px;
+.dresses .filtering .all-dresses .card .img-style {
+  height: 300px;
+}
+.dresses .filtering .all-dresses .card .img-style img {
+  height: 100%;
 }
 .dresses .filtering .all-dresses .card a {
   color: var(--black);
