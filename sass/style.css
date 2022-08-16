@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --main-color: #E8AA42;
+  --main-color: #3BACB6;
   --hover-color: #2e848b;
   --background-color: #f5f5f5;
   --white: #fff;
@@ -12,6 +12,12 @@
   --menu-height:285px;
   --menu-width:200px;
   --box-shadow: 0 1px 4px rgba(0,0,0,.1);
+  --gray: rgb(188, 181, 181);
+  --heads: #484847;
+  --input: rgba(224, 224, 224, .1);
+  --menu-height: 285px;
+  --menu-width: 200px;
+  --box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
   --transition: 0.3s;
 }
 
@@ -1347,9 +1353,20 @@ a {
   background-color: var(--white);
 }
 .dresses .filtering .all-dresses .card {
-  padding: 0.6rem;
+  padding: 0.6rem 0.6rem 1rem;
   border: 0 !important;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.dresses .filtering .all-dresses .card img {
+  height: 260px;
+}
+.dresses .filtering .all-dresses .card a {
+  color: var(--black);
+}
+.dresses .filtering .all-dresses .card .cart-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .dresses .filtering .all-dresses .card p {
   font-size: 0.8rem;
@@ -1360,7 +1377,7 @@ a {
 .dresses .filtering .all-dresses .card h5 {
   font-size: 0.95rem;
   font-weight: bold;
-  margin-top: 0.4rem;
+  margin-top: 0.7rem;
 }
 .dresses .filtering .all-dresses .card span {
   font-size: 0.8rem;
@@ -1369,14 +1386,105 @@ a {
 }
 .dresses .filtering .filter {
   background-color: var(--white);
-  height: 400px;
-  width: 80%;
+  width: 25%;
   margin-right: 1rem;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.dresses .filtering .filter .category {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.dresses .filtering .filter .category h5 {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+}
+.dresses .filtering .filter .category .dress {
+  padding-top: 0.4rem;
+}
+.dresses .filtering .filter .category span {
+  font-size: 0.95rem;
+  padding-left: 0.8rem;
+}
+.dresses .filtering .filter .category ul {
+  margin: 0;
+  padding: 0;
+}
+.dresses .filtering .filter .category ul li {
+  padding: 0.39rem 2rem;
+}
+.dresses .filtering .filter .category ul li a {
+  color: var(--black);
+  font-size: 0.9rem;
+}
+.dresses .filtering .filter .category ul li:hover {
+  background-color: #eee;
+}
+.dresses .filtering .filter .feature {
+  height: 210px;
+  overflow: auto;
+}
+.dresses .filtering .filter ::-webkit-scrollbar {
+  width: 0.4rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+}
+.dresses .filtering .filter ::-webkit-scrollbar-thumb {
+  background-color: rgb(201, 199, 199);
+  border-radius: 0.5rem;
+}
+.dresses .filtering .filter .brand {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.dresses .filtering .filter .brand h5 {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+}
+.dresses .filtering .filter .brand input {
+  display: none;
+}
+.dresses .filtering .filter .brand .brand-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.dresses .filtering .filter .brand label {
+  font-size: 0.9rem;
+}
+.dresses .filtering .filter .brand .view-icon {
+  display: block;
+}
+.dresses .filtering .filter .brand .checkbox {
+  padding: 0 0.2rem;
+  border: 2px solid #c7c7cd;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dresses .filtering .filter .brand .checkbox i {
+  font-size: 1rem;
+  color: var(--white);
+}
+.dresses .filtering .filter .brand .view {
+  background-color: var(--main-color);
+  border: 0;
+}
+.dresses .filtering .filter .size {
+  border-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
