@@ -30,10 +30,10 @@
     }
     .filtering{
         width: 90%;
-        gap: 3rem;
+        gap: 2rem;
         margin: 20px auto;
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 3fr;
         .all-dresses{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -46,8 +46,12 @@
                     padding: .6rem .6rem 1rem;
                     border: 0 !important;
                     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-                    img{
-                        height: 260px;
+                    .img-style{
+                        height: 300px;
+                        
+                        img{
+                            height: 100%;
+                        }
                     }
                     a{
                         color: var(--black);
@@ -86,17 +90,21 @@
             -ms-border-radius: 5px;
             -o-border-radius: 5px;
             padding-bottom: .5rem;
+            height: fit-content;
+            .title-brand{
+                h5{
+                    font-size: 1rem;
+                    background-color: var(--main-color);
+                    color: var(--white);
+                    padding: .5rem .8rem;
+                }
 
+            }
             .category
             {
             
                 margin-top: 1rem;
                 border-bottom: 1px solid #eee;
-                h5{
-                    font-size: 1rem;
-                    padding-left: .8rem;
-                    padding-top: .5rem;
-                }
                 .dress{
                     padding-top: .4rem;
                 }
@@ -139,10 +147,6 @@
             .brand{
                 margin-top: 1.5rem;
                 border-bottom: 1px solid #eee;
-                h5{
-                    font-size: 1rem;
-                    padding-left: .8rem;
-                }
                 input{
                     display: none;
                 }
@@ -200,6 +204,13 @@
     }
     .filtering{
         display: block !important;
+        .filter{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .title-brand{
+                margin-top: 0 !important;
+            }
+        }
     }
 }
 @media (max-width:497px) {
@@ -209,5 +220,8 @@
         .card{
             width: 250px;
         }
+    }
+    .filter{
+        grid-template-columns: 1fr !important;
     }
 }

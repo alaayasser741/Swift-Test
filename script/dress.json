@@ -1,8 +1,24 @@
 [
-    {"img":"../images/Dresses/d1.png","description":"Short Dresses For Women..","price":"EGP 700.00","old_price":"EGP 1,000.00"},
-    {"img":"../images/Dresses/d2.png","description":"Short Dresses For Women..","price":"EGP 1200.00","old_price":"EGP 1,500.00"},
-    {"img":"../images/Dresses/d3.png","description":"Short Dresses For Women..","price":"EGP 1700.00","old_price":"EGP 2,000.00"},
-    {"img":"../images/Dresses/d4.png","description":"Short Dresses For Women..","price":"EGP 1,300.00","old_price":"EGP 1,600.00"},
-    {"img":"../images/Dresses/d5.png","description":"Short Dresses For Women..","price":"EGP 1,250.00","old_price":"EGP 1,450.00"},
-    {"img":"../images/Dresses/d6.png","description":"Short Dresses For Women..","price":"EGP 700.00","old_price":"EGP 990.00"}
+    {"img":"./images/Dresses/d1.png","description":"Short Dresses For Women..","price":"EGP 700.00","old_price":"EGP 1,000.00"},
+    {"img":"./images/Dresses/d2.png","description":"Short Dresses For Women..","price":"EGP 1200.00","old_price":"EGP 1,500.00"},
+    {"img":"./images/Dresses/d3.png","description":"Short Dresses For Women..","price":"EGP 1700.00","old_price":"EGP 2,000.00"},
+    {"img":"./images/Dresses/d4.png","description":"Short Dresses For Women..","price":"EGP 1,300.00","old_price":"EGP 1,600.00"},
+    {"img":"./images/Dresses/d5.png","description":"Short Dresses For Women..","price":"EGP 1,250.00","old_price":"EGP 1,450.00"},
+    {"img":"./images/Dresses/d6.png","description":"Long Dresses For Women..","price":"EGP 700.00","old_price":"EGP 990.00"},
+    {"img":"./images/Dresses/d7.png","description":"Long Dresses For Women...","price":"EGP 1,200.00","old_price":"EGP 1,400.00"},
+    {"img":"./images/Dresses/d8.png","description":"Long Dresses For Women...","price":"EGP 960.00","old_price":"EGP 1,250.00"},
+    {"img":"./images/Dresses/d9.png","description":"Casual Stan White Dress...","price":"EGP 600.00","old_price":"EGP 800.00"},
+    {"img":"./images/Dresses/d10.png","description":"Short Dresses For Women..","price":"EGP 700.00","old_price":"EGP 990.00"},
+    {"img":"./images/Dresses/d11.png","description":"Casual Stan White Dress...","price":"EGP EGP 1,300.00","old_price":"EGP 1,700.00"},
+    {"img":"./images/Dresses/d12.png","description":"Tout Women Dresses-Lon..","price":"EGP EGP 1,300.00","old_price":"EGP 1,500.00"},
+    {"img":"./images/Dresses/d13.png","description":"Tout Women Dresses-Lon..","price":"EGP EGP 1,300.00","old_price":"EGP 1,500.00"},
+    {"img":"./images/Dresses/d14.png","description":"Tout Women Dresses-Lon..","price":"EGP EGP 1,100.00","old_price":"EGP 1,650.00"},
+    {"img":"./images/Dresses/d15.png","description":"Short Dresses For Women..  ","price":"EGP EGP 500.00","old_price":"EGP 850.00"},
+    {"img":"./images/Dresses/d16.png","description":"Short Dresses For Women..  ","price":"EGP EGP 500.00","old_price":"EGP 850.00"}
+
+
+
+
+
+
 ]

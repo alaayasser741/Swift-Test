@@ -1,57 +1,41 @@
 //////////////////////////////////checkBox
 
-let check=document.querySelectorAll('.checkbox')
-let icon=document.querySelectorAll('.checkbox i')
+let check = document.querySelectorAll(".checkbox");
+let icon = document.querySelectorAll(".checkbox i");
 
-check.forEach(item=>{
-    item.addEventListener('click',()=>{
-        item.classList.toggle('view')
-        icon.forEach(i=>{
-            i.classList.toggle('view-icon')
-        });
-        
-
-    })
-
+check.forEach((item) => {
+  item.addEventListener("click", () => {
+    item.classList.toggle("view");
+    icon.forEach((i) => {
+      i.classList.toggle("view-icon");
+    });
+  });
 });
 AOS.init();
 
-/////////////////////////////////show dresses
-
-function getDress(){
-    return new Promise((res)=>{
-        let url='./dress.json';
-        fetch('./dress.json').
-        then((response)=>{
-            res(response.json())
-            console.log(response);
-        })
-    })
+function getDress() {
+  return new Promise((res) => {
+    let url = "script/dress.json";
+    fetch(url).then((response) => {
+      res(response.json());
+    });
+  });
 }
-getDress()
-function getDress(){
-    return new Promise((res)=>{
-        let url="script/dress.json";
-        fetch(url).
-        then((response)=>{
-            res(response.json())
-        })
-    })
-}
-getDress()
+getDress();
 
-async function displaydata(){
-    let dress=document.querySelector(".all-dresses")
-    let card='';
-    try{
-        const data=await getDress();
-        console.log(data);
-        data.forEach(d=>{
-            
-            card+=`
+async function displaydata() {
+  let dress = document.querySelector(".all-dresses");
+  let card = ``;
+  try {
+    const data = await getDress();
+    console.log(data);
+    data.forEach((d) => {
+      card += `
             <div class="card" data-aos="fade-up">
             <a href="#">
-            <img src=${d.img} class="card-img-top img-fluid" alt="...">
+            <div class="img-style">
+            <img src=${d.img} class="card-img-top img-fluid" alt="product-img">
+            </div>
             <div class="card-bodyy">
                 <p class="card-textt">${d.description}</p>
                 <h5>${d.price}</h5>
@@ -81,13 +65,11 @@ async function displaydata(){
                
             </div>
             </a>
-        </div>`
-        })
-        dress.innerHTML=card;
-
-    }
-    catch(e){
-        console.log(e);
-    }
+        </div>`;
+    });
+    dress.innerHTML = card;
+  } catch (e) {
+    console.log(e);
+  }
 }
-displaydata()
+displaydata();
