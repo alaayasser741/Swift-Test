@@ -1480,7 +1480,7 @@ a {
   -o-border-radius: 5px;
 }
 .dresses .filtering .filter .category {
-  padding-top: 1rem;
+  margin-top: 1.5rem;
   border-bottom: 1px solid #eee;
 }
 .dresses .filtering .filter .category h5 {
@@ -1522,7 +1522,7 @@ a {
   border-radius: 0.5rem;
 }
 .dresses .filtering .filter .brand {
-  padding-top: 1rem;
+  margin-top: 1.5rem;
   border-bottom: 1px solid #eee;
 }
 .dresses .filtering .filter .brand h5 {
