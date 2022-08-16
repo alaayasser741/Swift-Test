@@ -6,6 +6,12 @@
   --background-color: #f5f5f5;
   --white: #fff;
   --black: #000;
+  --gray: #9b6f2e;
+  --heads: #4D6D6E;
+  --input:rgba(224, 224, 224,.1);
+  --menu-height:285px;
+  --menu-width:200px;
+  --box-shadow: 0 1px 4px rgba(0,0,0,.1);
   --gray: rgb(188, 181, 181);
   --heads: #484847;
   --input: rgba(224, 224, 224, .1);
@@ -1391,5 +1397,195 @@ a {
 @media screen and (max-width: 470px) {
   .footer {
     display: none;
+  }
+}
+.dresses .panner {
+  width: 100%;
+  text-align: center;
+}
+.dresses .panner a img {
+  width: 90%;
+}
+.dresses .bcontainer {
+  flex-basis: 80%;
+  background-color: var(--white);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dresses .bcontainer .title {
+  padding: 1.2rem 2rem 0.3rem;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.dresses .bcontainer .title h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.dresses .filtering {
+  width: 90%;
+  gap: 3rem;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.dresses .filtering .all-dresses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  background-color: var(--white);
+}
+.dresses .filtering .all-dresses .card {
+  padding: 0.6rem 0.6rem 1rem;
+  border: 0 !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.dresses .filtering .all-dresses .card img {
+  height: 260px;
+}
+.dresses .filtering .all-dresses .card a {
+  color: var(--black);
+}
+.dresses .filtering .all-dresses .card .cart-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dresses .filtering .all-dresses .card p {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5rem !important;
+}
+.dresses .filtering .all-dresses .card h5 {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-top: 0.7rem;
+}
+.dresses .filtering .all-dresses .card span {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  margin-top: 0;
+}
+.dresses .filtering .filter {
+  background-color: var(--white);
+  flex-basis: 20%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dresses .filtering .filter .category {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.dresses .filtering .filter .category h5 {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+}
+.dresses .filtering .filter .category .dress {
+  padding-top: 0.4rem;
+}
+.dresses .filtering .filter .category span {
+  font-size: 0.95rem;
+  padding-left: 0.8rem;
+}
+.dresses .filtering .filter .category ul {
+  margin: 0;
+  padding: 0;
+}
+.dresses .filtering .filter .category ul li {
+  padding: 0.39rem 2rem;
+}
+.dresses .filtering .filter .category ul li a {
+  color: var(--black);
+  font-size: 0.9rem;
+}
+.dresses .filtering .filter .category ul li:hover {
+  background-color: #eee;
+}
+.dresses .filtering .filter .feature {
+  height: 210px;
+  overflow: auto;
+}
+.dresses .filtering .filter ::-webkit-scrollbar {
+  width: 0.4rem;
+  border-radius: 0.5rem;
+  background-color: #eee;
+}
+.dresses .filtering .filter ::-webkit-scrollbar-thumb {
+  background-color: rgb(201, 199, 199);
+  border-radius: 0.5rem;
+}
+.dresses .filtering .filter .brand {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.dresses .filtering .filter .brand h5 {
+  font-size: 1rem;
+  padding-left: 0.8rem;
+}
+.dresses .filtering .filter .brand input {
+  display: none;
+}
+.dresses .filtering .filter .brand .brand-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.dresses .filtering .filter .brand label {
+  font-size: 0.9rem;
+}
+.dresses .filtering .filter .brand .view-icon {
+  display: block;
+}
+.dresses .filtering .filter .brand .checkbox {
+  padding: 0 0.2rem;
+  border: 2px solid #c7c7cd;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dresses .filtering .filter .brand .checkbox i {
+  font-size: 1rem;
+  color: var(--white);
+}
+.dresses .filtering .filter .brand .view {
+  background-color: var(--main-color);
+  border: 0;
+}
+.dresses .filtering .filter .size {
+  border-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .bcontainer {
+    margin-top: 2rem;
+  }
+  .filtering {
+    display: block !important;
+  }
+}
+@media (max-width: 497px) {
+  .all-dresses {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+  }
+  .all-dresses .card {
+    width: 250px;
   }
 }/*# sourceMappingURL=style.css.map */
