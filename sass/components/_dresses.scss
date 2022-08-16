@@ -85,15 +85,17 @@
             -moz-border-radius: 5px;
             -ms-border-radius: 5px;
             -o-border-radius: 5px;
+            padding-bottom: .5rem;
 
             .category
             {
             
-                margin-top: 1.5rem;
+                margin-top: 1rem;
                 border-bottom: 1px solid #eee;
                 h5{
                     font-size: 1rem;
                     padding-left: .8rem;
+                    padding-top: .5rem;
                 }
                 .dress{
                     padding-top: .4rem;
