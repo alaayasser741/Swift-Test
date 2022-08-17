@@ -30,10 +30,10 @@
     }
     .filtering{
         width: 90%;
-        gap: 3rem;
+        gap: 2rem;
         margin: 20px auto;
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 1fr 3fr;
         .all-dresses{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -84,7 +84,7 @@
         }
         .filter{
             background-color: var(--white);
-            flex-basis: 20%;
+            // flex-basis: 25%;
             border-radius: 5px;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
@@ -115,6 +115,12 @@
                 ul{
                     margin: 0;
                     padding: 0;
+                    .active{
+                        background-color: var(--gray);
+                        a{
+                            color: white;
+                        }
+                    }
                     li{
                         padding: .39rem 2rem;
                         a{
@@ -122,7 +128,8 @@
                             font-size: .9rem;
                         }
                         &:hover{
-                            background-color:#eee ;
+                            background-color:#eee;
+                            color: #000;
                         }
                     }
                 }

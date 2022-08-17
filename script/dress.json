@@ -1,52 +1,38 @@
 [
   {
-    "img": "../images/Dresses/d1.png",
-    "description": "Short Dresses For Women..",
+    "img": "./images/Dresses/d1.png",
+    "description": "Modainsa",
     "price": "EGP 700.00",
-    "old_price": "EGP 1,000.00"
+    "old_price": "EGP 1,000.00",
+    
+    "all":"all",
+    "dressType":"caual",
+    "brand":"Modainsa",
+    "color":"Black",
+    "Size":"M"
   },
   {
-    "img": "../images/Dresses/d2.png",
-    "description": "Short Dresses For Women..",
+    "img": "./images/Dresses/d2.png",
+    "description": "Shein",
     "price": "EGP 1200.00",
-    "old_price": "EGP 1,500.00"
+    "old_price": "EGP 1,500.00",
+
+    "all":"all",
+    "dressType":"Long",
+    "brand":"Shein",
+    "color":"Pink",
+    "Size":"XS"
   },
   {
-    "img": "../images/Dresses/d3.png",
-    "description": "Short Dresses For Women..",
+    "img": "./images/Dresses/d3.png",
+    "description": "Addax",
     "price": "EGP 1700.00",
-    "old_price": "EGP 2,000.00"
+    "old_price": "EGP 2,000.00",
+
+    "all":"all",
+    "dressType":"Short",
+    "brand":"Addax",
+    "color":"White",
+    "Size":"S"
   }
-  ,
-  {
-    "img": "../images/Dresses/d3.png",
-    "description": "Short Dresses For Women..",
-    "price": "EGP 1700.00",
-    "old_price": "EGP 2,000.00"
-  },
-  {
-    "img": "../images/Dresses/d3.png",
-    "description": "Short Dresses For Women..",
-    "price": "EGP 1700.00",
-    "old_price": "EGP 2,000.00"
-  },
-  {
-    "img": "../images/Dresses/d3.png",
-    "description": "Short Dresses For Women..",
-    "price": "EGP 1700.00",
-    "old_price": "EGP 2,000.00"
-  },
-  {
-    "img": "../images/Dresses/d3.png",
-    "description": "Short Dresses For Women..",
-    "price": "EGP 1700.00",
-    "old_price": "EGP 2,000.00"
-  },
-  {
-    "img": "../images/Dresses/d3.png",
-    "description": "Short Dresses For Women..",
-    "price": "EGP 1700.00",
-    "old_price": "EGP 2,000.00"
-  }
-  
 ]

@@ -1425,10 +1425,10 @@ a {
 }
 .dresses .filtering {
   width: 90%;
-  gap: 3rem;
+  gap: 2rem;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
 }
 .dresses .filtering .all-dresses {
   display: grid;
@@ -1475,7 +1475,6 @@ a {
 }
 .dresses .filtering .filter {
   background-color: var(--white);
-  flex-basis: 20%;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1504,6 +1503,12 @@ a {
   margin: 0;
   padding: 0;
 }
+.dresses .filtering .filter .category ul .active {
+  background-color: var(--gray);
+}
+.dresses .filtering .filter .category ul .active a {
+  color: white;
+}
 .dresses .filtering .filter .category ul li {
   padding: 0.39rem 2rem;
 }
@@ -1513,6 +1518,7 @@ a {
 }
 .dresses .filtering .filter .category ul li:hover {
   background-color: #eee;
+  color: #000;
 }
 .dresses .filtering .filter .feature {
   height: 210px;

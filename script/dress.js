@@ -3,11 +3,42 @@
 let check = document.querySelectorAll(".checkbox");
 let icon = document.querySelectorAll(".checkbox i");
 
+let CardOfBrand = [];
+
 check.forEach((item) => {
   item.addEventListener("click", () => {
     item.classList.toggle("view");
     icon.forEach((i) => {
       i.classList.toggle("view-icon");
+    });
+    // Filter
+    let _card = document.querySelectorAll(".all-dresses .card");
+    document.querySelectorAll(item.dataset.brand).forEach((el) => {
+      if (item.classList.contains("view")) {
+        CardOfBrand.push(el);
+        _card.forEach((c) => {
+          c.style.display = "none";
+        });
+        CardOfBrand.forEach((Card) => {
+          Card.style.display = "block";
+        });
+      } else {
+        const index = CardOfBrand.indexOf(el);
+        if (index > -1) {
+          // only splice array when item is found
+          CardOfBrand.splice(index, 1); // 2nd parameter means remove one item only
+        }
+        _card.forEach((c) => {
+          c.style.display = "none";
+        });
+        CardOfBrand.forEach((Card) => {
+          Card.style.display = "block";
+        });
+      }
+      if (CardOfBrand.length === 0) {
+        _card.forEach((c) => {
+          c.style.display = "block";
+        });}
     });
   });
 });
@@ -25,16 +56,15 @@ getDress();
 
 async function displaydata() {
   let dress = document.querySelector(".all-dresses");
-  let card = ``;
   try {
+    let card = ``;
     const data = await getDress();
-    console.log(data);
     data.forEach((d) => {
       card += `
-            <div class="card" data-aos="fade-up">
+            <div class="card ${d.all} ${d.dressType} ${d.brand} ${d.color} ${d.Size}" data-aos="fade-up">
             <a href="#">
             <div class="img-style">
-            <img src=${d.img} class="card-img-top img-fluid" alt="product-img">
+              <img src=${d.img} class="card-img-top img-fluid" alt="product-img">
             </div>
             <div class="card-bodyy">
                 <p class="card-textt">${d.description}</p>
@@ -70,6 +100,31 @@ async function displaydata() {
     dress.innerHTML = card;
   } catch (e) {
     console.log(e);
+  }
+
+  // Filter
+  let _DressesType = document.querySelectorAll(".Dresses-Type li");
+  let _card = document.querySelectorAll(".all-dresses .card");
+
+  _DressesType.forEach((li) => {
+    li.addEventListener("click", removeActive);
+    li.addEventListener("click", manageCard);
+  });
+  // Remove Active Class
+  function removeActive() {
+    _DressesType.forEach((li) => {
+      li.classList.remove("active");
+      this.classList.add("active");
+    });
+  }
+  // Manage Card
+  function manageCard() {
+    _card.forEach((c) => {
+      c.style.display = "none";
+    });
+    document.querySelectorAll(this.dataset.cat).forEach((el) => {
+      el.style.display = "block";
+    });
   }
 }
 displaydata();
