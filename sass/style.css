@@ -107,6 +107,7 @@ a {
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .navbar .iconn {
   display: flex;
@@ -1424,11 +1425,13 @@ a {
   font-weight: bold;
 }
 .dresses .filtering {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   width: 90%;
   gap: 2rem;
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
+  background: #fff;
 }
 .dresses .filtering .all-dresses {
   display: grid;
@@ -1436,7 +1439,6 @@ a {
   gap: 1rem;
   margin: 0 1rem;
   padding: 1rem 0;
-  background-color: var(--white);
 }
 .dresses .filtering .all-dresses .card {
   padding: 0.6rem 0.6rem 1rem;
@@ -1474,23 +1476,28 @@ a {
   margin-top: 0;
 }
 .dresses .filtering .filter {
-  background-color: var(--white);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   padding-bottom: 0.5rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.dresses .filtering .filter .title-brand {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 0 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 .dresses .filtering .filter .title-brand h5 {
-  font-size: 1rem;
-  background-color: var(--main-color);
-  color: var(--white);
+  font-size: 1.2rem;
   padding: 0.5rem 0.8rem;
 }
 .dresses .filtering .filter .category {
-  margin-top: 1rem;
-  border-bottom: 1px solid #eee;
+  margin-top: 0.5rem;
 }
 .dresses .filtering .filter .category .dress {
   padding-top: 0.4rem;
@@ -1535,7 +1542,6 @@ a {
 }
 .dresses .filtering .filter .brand {
   margin-top: 1.5rem;
-  border-bottom: 1px solid #eee;
 }
 .dresses .filtering .filter .brand input {
   display: none;

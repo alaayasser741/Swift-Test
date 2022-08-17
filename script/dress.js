@@ -61,7 +61,7 @@ async function displaydata() {
     const data = await getDress();
     data.forEach((d) => {
       card += `
-            <div class="card ${d.all} ${d.dressType} ${d.brand} ${d.color} ${d.Size}" data-aos="fade-up">
+            <div class="card ${d.all} ${d.dressType} ${d.brand} ${d.color} ${d.Size}" >
             <a href="#">
             <div class="img-style">
               <img src=${d.img} class="card-img-top img-fluid" alt="product-img">
