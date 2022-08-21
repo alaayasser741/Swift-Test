@@ -42,6 +42,7 @@
         display: grid;
         grid-template-columns: 1fr 3fr;
         background: #fff;
+
         .all-dresses {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -55,16 +56,42 @@
                 border: 0 !important;
                 box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
 
+                &:hover img {
+                    transform: scale(1.1);
+                    -webkit-transform: scale(1.1);
+                    -moz-transform: scale(1.1);
+                    -ms-transform: scale(1.1);
+                    -o-transform: scale(1.1);
+                }
+
                 .img-style {
                     height: 300px;
+                    overflow: hidden;
 
                     img {
                         height: 100%;
+                        transition: var(--transition);
+                        -webkit-transition: var(--transition);
+                        -moz-transition: var(--transition);
+                        -ms-transition: var(--transition);
+                        -o-transition: var(--transition);
                     }
                 }
 
                 a {
                     color: var(--black);
+
+                    p {
+                        transition: var(--transition);
+                        -webkit-transition: var(--transition);
+                        -moz-transition: var(--transition);
+                        -ms-transition: var(--transition);
+                        -o-transition: var(--transition);
+
+                        &:hover {
+                            color: var(--main-color);
+                        }
+                    }
                 }
 
                 .cart-price {
