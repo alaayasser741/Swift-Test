@@ -55,7 +55,7 @@ function getDress() {
 getDress();
 
 async function displaydata() {
-  let dress = document.querySelector(".all-dresses");
+  let dress = document.querySelector(".all-Blouses");
   try {
     let card = ``;
     const data = await getDress();
@@ -96,8 +96,8 @@ async function displaydata() {
             </div>
             </a>
         </div>`;
-    });
-    dress.innerHTML = card;
+      });
+      dress.innerHTML = card;
   } catch (e) {
     console.log(e);
   }
