@@ -7,7 +7,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Defacto",
-    "color": "White",
+    "color": "Purple",
     "Size": "XL L M ONE"
   },
   {
@@ -18,7 +18,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Defacto",
-    "color": "White",
+    "color": "Gery",
     "Size": "XXL XL M S ONE"
   },
   {
@@ -29,7 +29,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Defacto",
-    "color": "Pink",
+    "color": "Green",
     "Size": "XL L M S XS ONE"
   },
   {
@@ -40,7 +40,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Defacto",
-    "color": "Bronze",
+    "color": "Beige",
     "Size": "XXL S M ONE"
   },
   {
@@ -62,7 +62,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Defacto",
-    "color": "White",
+    "color": "Beige",
     "Size": "XL S XXL ONE"
   },
   {
@@ -73,7 +73,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Ricci",
-    "color": "Purple",
+    "color": "Beige",
     "Size": "XL XS XXL ONE"
   },
   {
@@ -84,7 +84,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Ricci",
-    "color": "Pink",
+    "color": "White",
     "Size": "XS M ONE"
   },
   {
@@ -95,7 +95,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Ricci",
-    "color": "Pink",
+    "color": "Black",
     "Size": "XXL XL L M S ONE"
   },
   {
@@ -106,7 +106,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Ricci",
-    "color": "Bleu",
+    "color": "Black",
     "Size": "M"
   },
   {
@@ -117,7 +117,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Ricci",
-    "color": "Green",
+    "color": "Bronze",
     "Size": "XXL XL S ONE"
   },
   {
@@ -128,7 +128,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Shein",
-    "color": "Gery",
+    "color": "Green",
     "Size": "XL XXL L  XS S ONE"
   },
   {
@@ -139,7 +139,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Shein",
-    "color": "Pink",
+    "color": "White",
     "Size": "XL L M ONE"
   },
   {
@@ -150,7 +150,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Shein",
-    "color": "Black",
+    "color": "White",
     "Size": "XL L S ONE"
   },
   {
@@ -161,7 +161,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Ricci",
-    "color": "Black",
+    "color": "Pink",
     "Size": "XL M ONE"
   },
   {
@@ -172,7 +172,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Shein",
-    "color": "White",
+    "color": "Bronze",
     "Size": "XXL XL L ONE"
   },
   {
@@ -194,7 +194,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Modainsa",
-    "color": "Pink",
+    "color": "Black",
     "Size": "XL L M ONE"
   },
   {
@@ -205,7 +205,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Addax",
-    "color": "Bleu",
+    "color": "Beige",
     "Size": "XL M ONE"
   },
   {
@@ -216,7 +216,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Addax",
-    "color": "Green",
+    "color": "Purple",
     "Size": "M ONE"
   },
   {
@@ -227,7 +227,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Addax",
-    "color": "Black",
+    "color": "Bleu",
     "Size": "L M ONE"
   },
   {
@@ -238,7 +238,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Addax",
-    "color": "White",
+    "color": "Bleu",
     "Size": "XXL XL ONE"
   },
   {
@@ -249,7 +249,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Addax",
-    "color": "Black",
+    "color": "Bleu",
     "Size": "XXL XL L M ONE"
   },
   {
@@ -260,7 +260,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Sun-Set",
-    "color": "Pink",
+    "color": "Baby-Bleu",
     "Size": "XS S ONE"
   },
   {
@@ -271,7 +271,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Sun-Set",
-    "color": "Green",
+    "color": "Pink",
     "Size": "XS L XL ONE"
   },
   {
@@ -282,7 +282,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Sun-Set",
-    "color": "White",
+    "color": "Purple",
     "Size": "XXL XS S ONE"
   },
   {
@@ -293,7 +293,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Sun-Set",
-    "color": "White",
+    "color": "Beige",
     "Size": "XS ONE"
   },
   {
@@ -304,7 +304,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Sun-Set",
-    "color": "Black",
+    "color": "White",
     "Size": "S ONE"
   },
   {
@@ -315,7 +315,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Defacto",
-    "color": "Pink",
+    "color": "Beige",
     "Size": "XL ONE"
   },
   {
@@ -337,7 +337,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Defacto",
-    "color": "Pink",
+    "color": "Beige",
     "Size": "XL ONE"
   },
   {
@@ -348,7 +348,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Defacto",
-    "color": "Green",
+    "color": "Pink",
     "Size": "XXL ONE"
   },
   {
@@ -359,7 +359,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Defacto",
-    "color": "White",
+    "color": "Black",
     "Size": "XS S ONE"
   },
   {
@@ -370,7 +370,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Sun-Set",
-    "color": "Red",
+    "color": "Purple",
     "Size": "M L ONE"
   },
   {
@@ -381,7 +381,7 @@
     "all": "all",
     "dressType": "Long",
     "brand": "Sun-Set",
-    "color": "White",
+    "color": "Black",
     "Size": "XL XXL ONE"
   },
   {
@@ -392,7 +392,7 @@
     "all": "all",
     "dressType": "Short",
     "brand": "Ricci",
-    "color": "Pink",
+    "color": "Beige",
     "Size": "XXL XL S XS L M ONE"
   },
   {
@@ -403,7 +403,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Ricci",
-    "color": "Black",
+    "color": "Baby-Bleu",
     "Size": "XXL XL S XS L M ONE"
   },
   {
@@ -414,7 +414,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Modainsa",
-    "color": "Bronze",
+    "color": "Beige",
     "Size": "XXL XL S XS L M ONE"
   },
   {
@@ -425,7 +425,7 @@
     "all": "all",
     "dressType": "caual",
     "brand": "Ricci",
-    "color": "Bronze",
+    "color": "Pink",
     "Size": "XXL XL S XS L M ONE"
   }
 ]
