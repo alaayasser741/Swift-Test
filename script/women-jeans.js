@@ -46,7 +46,7 @@ AOS.init();
 
 function getDress() {
   return new Promise((res) => {
-    let url = "script/women-jeans.json";
+    let url = "script/women-sliper.json";
     fetch(url).then((response) => {
       res(response.json());
     });
