@@ -7,7 +7,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "White",
+    "color": "pink",
     "Size": "XL L M ONE"
   },
   {
@@ -18,7 +18,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "White",
+    "color": "brown",
     "Size": "XXL XL M S ONE"
   },
   {
@@ -29,7 +29,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "White",
+    "color": "Baby-Bleu",
     "Size": "XL L M S XS ONE"
   },
   {
@@ -40,7 +40,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "White",
+    "color": "Gery",
     "Size": "XXL S M ONE"
   },
   {
@@ -51,7 +51,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Baby-Bleu",
+    "color": "pink",
     "Size": "XL XS S ONE"
   },
   {
@@ -62,7 +62,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Baby-Bleu",
+    "color": "Green",
     "Size": "XL S XXL ONE"
   },
   {
@@ -84,7 +84,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Baby-Bleu",
+    "color": "pink",
     "Size": "XS M ONE"
   },
   {
@@ -95,7 +95,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "Red",
+    "color": "pink",
     "Size": "XXL XL L M S ONE"
   },
   {
@@ -106,7 +106,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "Black",
+    "color": "Green",
     "Size": "M"
   },
   {
@@ -117,7 +117,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "White",
+    "color": "beige",
     "Size": "XXL XL S ONE"
   },
   {
@@ -128,7 +128,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "Green",
+    "color": "beige",
     "Size": "XL XXL L  XS S ONE"
   },
   {
@@ -139,7 +139,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "Black",
+    "color": "pink",
     "Size": "XL L M ONE"
   },
   {
@@ -150,7 +150,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "White",
+    "color": "pink",
     "Size": "XL L S ONE"
   },
   {
@@ -161,7 +161,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "White",
+    "color": "pink",
     "Size": "XL M ONE"
   },
   {
@@ -172,7 +172,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "White",
+    "color": "pink",
     "Size": "XXL XL L ONE"
   },
   {
@@ -183,7 +183,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "Black",
+    "color": "Green",
     "Size": "L S M ONE"
   },
   {
@@ -194,7 +194,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Bleu",
+    "color": "black",
     "Size": "XL L M ONE"
   },
   {
@@ -205,7 +205,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "Gery",
+    "color": "beige",
     "Size": "XL M ONE"
   },
   {
@@ -216,7 +216,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "Gery",
+    "color": "Baby-Bleu",
     "Size": "M ONE"
   },
   {
@@ -227,7 +227,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "Gery",
+    "color": "pink",
     "Size": "L M ONE"
   },
   {
@@ -238,7 +238,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "Green",
+    "color": "White",
     "Size": "XXL XL ONE"
   },
   {
@@ -249,7 +249,7 @@
     "all": "all",
     "dressType": "Andora",
     "brand": "Andora",
-    "color": "White",
+    "color": "Baby-Bleu",
     "Size": "XXL XL L M ONE"
   },
   {
@@ -260,7 +260,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "White",
+    "color": "beige",
     "Size": "XS S ONE"
   },
   {
@@ -271,7 +271,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "White",
+    "color": "beige",
     "Size": "XS L XL ONE"
   },
   {
@@ -282,7 +282,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "Gery",
+    "color": "beige",
     "Size": "XXL XS S ONE"
   },
   {
@@ -293,7 +293,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Gery",
+    "color": "beige",
     "Size": "XS ONE"
   },
   {
@@ -304,7 +304,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "Bleu",
+    "color": "Gery",
     "Size": "S ONE"
   },
   {
@@ -315,7 +315,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "Gery",
+    "color": "Baby-Bleu",
     "Size": "XL ONE"
   },
   {
@@ -326,7 +326,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "Baby-Bleu",
+    "color": "pink",
     "Size": "L ONE"
   },
   {
@@ -337,7 +337,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "Baby-Bleu",
+    "color": "Green",
     "Size": "XL ONE"
   },
   {
@@ -348,7 +348,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "Green",
+    "color": "Gery",
     "Size": "XXL ONE"
   },
   {
@@ -359,7 +359,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "White",
+    "color": "beige",
     "Size": "XS S ONE"
   },
   {
@@ -370,7 +370,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Baby-Bleu",
+    "color": "White",
     "Size": "M L ONE"
   },
   {
@@ -381,7 +381,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "Gery",
+    "color": "pink",
     "Size": "XL XXL ONE"
   },
   {
@@ -392,7 +392,7 @@
     "all": "all",
     "dressType": "American",
     "brand": "American",
-    "color": "Bleu",
+    "color": "pink",
     "Size": "XXL XL S XS L M ONE"
   },
   {
@@ -403,7 +403,7 @@
     "all": "all",
     "dressType": "Wiakki",
     "brand": "Wiakki",
-    "color": "Gery",
+    "color": "beige",
     "Size": "XXL XL S XS L M ONE"
   },
   {
@@ -414,7 +414,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "mix",
+    "color": "beige",
     "Size": "XXL XL S XS L M ONE"
   }
   ,
@@ -426,7 +426,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "orange",
+    "color": "brown",
     "Size": "XXL XL S XS L M ONE"
   }   
   ,
@@ -438,7 +438,7 @@
     "all": "all",
     "dressType": "Defacto",
     "brand": "Defacto",
-    "color": "White",
+    "color": "Baby-Bleu",
     "Size": "XXL XL S XS L M ONE"
   }                                 
 ]
